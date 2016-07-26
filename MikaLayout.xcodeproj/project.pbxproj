@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25093DD81D475C5A00D330E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25093DD71D475C5A00D330E1 /* main.m */; };
+		25093DDB1D475C5A00D330E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25093DDA1D475C5A00D330E1 /* AppDelegate.m */; };
+		25093DDE1D475C5A00D330E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25093DDD1D475C5A00D330E1 /* ViewController.m */; };
+		25093DE11D475C5A00D330E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25093DDF1D475C5A00D330E1 /* Main.storyboard */; };
+		25093DE31D475C5A00D330E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25093DE21D475C5A00D330E1 /* Assets.xcassets */; };
+		25093DE61D475C5A00D330E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25093DE41D475C5A00D330E1 /* LaunchScreen.storyboard */; };
+		25093DF11D475C5B00D330E1 /* MikaLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25093DF01D475C5B00D330E1 /* MikaLayoutTests.m */; };
+		25093DFC1D475C5B00D330E1 /* MikaLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25093DFB1D475C5B00D330E1 /* MikaLayoutUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25093DED1D475C5B00D330E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25093DCB1D475C5A00D330E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25093DD21D475C5A00D330E1;
+			remoteInfo = MikaLayout;
+		};
+		25093DF81D475C5B00D330E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25093DCB1D475C5A00D330E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25093DD21D475C5A00D330E1;
+			remoteInfo = MikaLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25093DD31D475C5A00D330E1 /* MikaLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MikaLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25093DD71D475C5A00D330E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25093DD91D475C5A00D330E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25093DDA1D475C5A00D330E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25093DDC1D475C5A00D330E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25093DDD1D475C5A00D330E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25093DE01D475C5A00D330E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25093DE21D475C5A00D330E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25093DE51D475C5A00D330E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25093DE71D475C5A00D330E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25093DEC1D475C5B00D330E1 /* MikaLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MikaLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25093DF01D475C5B00D330E1 /* MikaLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MikaLayoutTests.m; sourceTree = "<group>"; };
+		25093DF21D475C5B00D330E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25093DF71D475C5B00D330E1 /* MikaLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MikaLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25093DFB1D475C5B00D330E1 /* MikaLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MikaLayoutUITests.m; sourceTree = "<group>"; };
+		25093DFD1D475C5B00D330E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25093DD01D475C5A00D330E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25093DE91D475C5B00D330E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25093DF41D475C5B00D330E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25093DCA1D475C5A00D330E1 = {
+			isa = PBXGroup;
+			children = (
+				25093DD51D475C5A00D330E1 /* MikaLayout */,
+				25093DEF1D475C5B00D330E1 /* MikaLayoutTests */,
+				25093DFA1D475C5B00D330E1 /* MikaLayoutUITests */,
+				25093DD41D475C5A00D330E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25093DD41D475C5A00D330E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25093DD31D475C5A00D330E1 /* MikaLayout.app */,
+				25093DEC1D475C5B00D330E1 /* MikaLayoutTests.xctest */,
+				25093DF71D475C5B00D330E1 /* MikaLayoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25093DD51D475C5A00D330E1 /* MikaLayout */ = {
+			isa = PBXGroup;
+			children = (
+				25093DD91D475C5A00D330E1 /* AppDelegate.h */,
+				25093DDA1D475C5A00D330E1 /* AppDelegate.m */,
+				25093DDC1D475C5A00D330E1 /* ViewController.h */,
+				25093DDD1D475C5A00D330E1 /* ViewController.m */,
+				25093DDF1D475C5A00D330E1 /* Main.storyboard */,
+				25093DE21D475C5A00D330E1 /* Assets.xcassets */,
+				25093DE41D475C5A00D330E1 /* LaunchScreen.storyboard */,
+				25093DE71D475C5A00D330E1 /* Info.plist */,
+				25093DD61D475C5A00D330E1 /* Supporting Files */,
+			);
+			path = MikaLayout;
+			sourceTree = "<group>";
+		};
+		25093DD61D475C5A00D330E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25093DD71D475C5A00D330E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25093DEF1D475C5B00D330E1 /* MikaLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				25093DF01D475C5B00D330E1 /* MikaLayoutTests.m */,
+				25093DF21D475C5B00D330E1 /* Info.plist */,
+			);
+			path = MikaLayoutTests;
+			sourceTree = "<group>";
+		};
+		25093DFA1D475C5B00D330E1 /* MikaLayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25093DFB1D475C5B00D330E1 /* MikaLayoutUITests.m */,
+				25093DFD1D475C5B00D330E1 /* Info.plist */,
+			);
+			path = MikaLayoutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25093DD21D475C5A00D330E1 /* MikaLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25093E001D475C5B00D330E1 /* Build configuration list for PBXNativeTarget "MikaLayout" */;
+			buildPhases = (
+				25093DCF1D475C5A00D330E1 /* Sources */,
+				25093DD01D475C5A00D330E1 /* Frameworks */,
+				25093DD11D475C5A00D330E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MikaLayout;
+			productName = MikaLayout;
+			productReference = 25093DD31D475C5A00D330E1 /* MikaLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25093DEB1D475C5B00D330E1 /* MikaLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25093E031D475C5B00D330E1 /* Build configuration list for PBXNativeTarget "MikaLayoutTests" */;
+			buildPhases = (
+				25093DE81D475C5B00D330E1 /* Sources */,
+				25093DE91D475C5B00D330E1 /* Frameworks */,
+				25093DEA1D475C5B00D330E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25093DEE1D475C5B00D330E1 /* PBXTargetDependency */,
+			);
+			name = MikaLayoutTests;
+			productName = MikaLayoutTests;
+			productReference = 25093DEC1D475C5B00D330E1 /* MikaLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25093DF61D475C5B00D330E1 /* MikaLayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25093E061D475C5B00D330E1 /* Build configuration list for PBXNativeTarget "MikaLayoutUITests" */;
+			buildPhases = (
+				25093DF31D475C5B00D330E1 /* Sources */,
+				25093DF41D475C5B00D330E1 /* Frameworks */,
+				25093DF51D475C5B00D330E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25093DF91D475C5B00D330E1 /* PBXTargetDependency */,
+			);
+			name = MikaLayoutUITests;
+			productName = MikaLayoutUITests;
+			productReference = 25093DF71D475C5B00D330E1 /* MikaLayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25093DCB1D475C5A00D330E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Mika;
+				TargetAttributes = {
+					25093DD21D475C5A00D330E1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					25093DEB1D475C5B00D330E1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 25093DD21D475C5A00D330E1;
+					};
+					25093DF61D475C5B00D330E1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 25093DD21D475C5A00D330E1;
+					};
+				};
+			};
+			buildConfigurationList = 25093DCE1D475C5A00D330E1 /* Build configuration list for PBXProject "MikaLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25093DCA1D475C5A00D330E1;
+			productRefGroup = 25093DD41D475C5A00D330E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25093DD21D475C5A00D330E1 /* MikaLayout */,
+				25093DEB1D475C5B00D330E1 /* MikaLayoutTests */,
+				25093DF61D475C5B00D330E1 /* MikaLayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25093DD11D475C5A00D330E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25093DE61D475C5A00D330E1 /* LaunchScreen.storyboard in Resources */,
+				25093DE31D475C5A00D330E1 /* Assets.xcassets in Resources */,
+				25093DE11D475C5A00D330E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25093DEA1D475C5B00D330E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25093DF51D475C5B00D330E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25093DCF1D475C5A00D330E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25093DDE1D475C5A00D330E1 /* ViewController.m in Sources */,
+				25093DDB1D475C5A00D330E1 /* AppDelegate.m in Sources */,
+				25093DD81D475C5A00D330E1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25093DE81D475C5B00D330E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25093DF11D475C5B00D330E1 /* MikaLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25093DF31D475C5B00D330E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25093DFC1D475C5B00D330E1 /* MikaLayoutUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25093DEE1D475C5B00D330E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25093DD21D475C5A00D330E1 /* MikaLayout */;
+			targetProxy = 25093DED1D475C5B00D330E1 /* PBXContainerItemProxy */;
+		};
+		25093DF91D475C5B00D330E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25093DD21D475C5A00D330E1 /* MikaLayout */;
+			targetProxy = 25093DF81D475C5B00D330E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25093DDF1D475C5A00D330E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25093DE01D475C5A00D330E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25093DE41D475C5A00D330E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25093DE51D475C5A00D330E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25093DFE1D475C5B00D330E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25093DFF1D475C5B00D330E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25093E011D475C5B00D330E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MikaLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mika.MikaLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25093E021D475C5B00D330E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MikaLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mika.MikaLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25093E041D475C5B00D330E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MikaLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mika.MikaLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MikaLayout.app/MikaLayout";
+			};
+			name = Debug;
+		};
+		25093E051D475C5B00D330E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MikaLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mika.MikaLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MikaLayout.app/MikaLayout";
+			};
+			name = Release;
+		};
+		25093E071D475C5B00D330E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MikaLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mika.MikaLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MikaLayout;
+			};
+			name = Debug;
+		};
+		25093E081D475C5B00D330E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MikaLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mika.MikaLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MikaLayout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25093DCE1D475C5A00D330E1 /* Build configuration list for PBXProject "MikaLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25093DFE1D475C5B00D330E1 /* Debug */,
+				25093DFF1D475C5B00D330E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25093E001D475C5B00D330E1 /* Build configuration list for PBXNativeTarget "MikaLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25093E011D475C5B00D330E1 /* Debug */,
+				25093E021D475C5B00D330E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		25093E031D475C5B00D330E1 /* Build configuration list for PBXNativeTarget "MikaLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25093E041D475C5B00D330E1 /* Debug */,
+				25093E051D475C5B00D330E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		25093E061D475C5B00D330E1 /* Build configuration list for PBXNativeTarget "MikaLayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25093E071D475C5B00D330E1 /* Debug */,
+				25093E081D475C5B00D330E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25093DCB1D475C5A00D330E1 /* Project object */;
+}
